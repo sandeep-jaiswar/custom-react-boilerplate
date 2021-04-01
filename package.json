@@ -10,7 +10,8 @@
     ]
   },
   "scripts": {
-    "start": "webpack serve --open"
+    "start": "webpack serve --open --hot --port 3000",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
