@@ -1,13 +1,7 @@
+/* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import App from './components/App';
+import './styles/index.css';
 
-class App extends React.Component {
-  render() {
-    return (
-      <div>Hello World</div>
-    )
-  }
-}
-
-ReactDOM.render(<App />, document.getElementById('app'))
+ReactDOM.render(<App />, document.getElementById('app'));
